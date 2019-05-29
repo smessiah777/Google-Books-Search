@@ -26,6 +26,15 @@ body {
   margin-top: 8%;
 }
 
+.books-img {
+  margin-right: 40px;
+}
+
+.title {
+  padding-top: 8%;
+  margin-left: 20px;
+}
+
 .title > h1 {
   color: #2a4997;
   font-size: 4rem;
