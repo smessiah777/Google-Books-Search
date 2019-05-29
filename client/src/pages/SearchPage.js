@@ -49,8 +49,6 @@ class BookSearch extends React.Component {
   render() {
     return (
       <div>
-        <Navbar />
-
         <section id="hero" className="section">
           <div className="row">
             <div className=" col-sm-6 col-lg-11 ">
@@ -77,6 +75,7 @@ class BookSearch extends React.Component {
         </section>
 
         <section id="search-section" className="section section-search">
+          <Navbar />
           <div className="container">
             <form>
               <Input
