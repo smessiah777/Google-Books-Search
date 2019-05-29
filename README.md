@@ -6,7 +6,7 @@
 
 <h1 align="center"> Google Books Search </h1>
 
-<h2 align="center"> Google book search a MERN stack app</h2>
+<h2 align="center">  a MERN stack app</h2>
 
 #### This app utilizes Google's book API and allows the user to search for books and save book searches to a mongo database.
 
