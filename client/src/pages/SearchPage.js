@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "../components/Navbar.js";
-import Jumbotron from "../components/Body.js";
+
 import Result from "../components/Result.js";
 import { Input, FormBtn } from "../components/Form.js";
 import API from "../utilities/API";
@@ -52,13 +52,31 @@ class BookSearch extends React.Component {
         <Navbar />
 
         <section id="hero" className="section">
-          <Jumbotron>
-            <span>Google Books Search</span>
-            <h1>Search Books</h1>
-          </Jumbotron>
+          <div className="row">
+            <div className=" col-sm-6 col-lg-11 ">
+              <div className="hero-content">
+                <div className="books-img">
+                  <img
+                    className="img-fluid"
+                    alt="Responsive image"
+                    src={require("../assets/images/books.png")}
+                  />
+                </div>
+                <div className="title">
+                  <h1>Google Book Search</h1>
+                  <h2>A MERN stack book search app</h2>
+                  <a href="#search-section">
+                    <button type="button" className="btn btn-search">
+                      Enter
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
         </section>
 
-        <section id="search-section" className="section">
+        <section id="search-section" className="section section-search">
           <div className="container">
             <form>
               <Input
