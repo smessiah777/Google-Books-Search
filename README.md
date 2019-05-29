@@ -1,10 +1,12 @@
 <p align="center">
   <img  src="https://image.flaticon.com/icons/png/512/562/562132.png">
+  
+ 
 </p>
 
-# Google Books Search
+<h1 align="center"> Google Books Search </h1>
 
-## This is google book search a MERN stack app
+<h2 align="center"> Google book search a MERN stack app</h2>
 
 #### This app utilizes Google's book API and allows the user to search for books and save book searches to a mongo database.
 
