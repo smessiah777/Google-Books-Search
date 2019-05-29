@@ -7,7 +7,10 @@ body {
 .section {
   height: 100vh;
 }
-
+.section-hero {
+  /* background-color: #528443; */
+  margin-bottom: 20px;
+}
 .section-search {
   width: 100vw;
   margin-top: 50px;
@@ -62,4 +65,30 @@ body {
 .nav-link-saved {
   color: #2a4997 !important;
   font-weight: bolder !important;
+}
+
+/* Search Styles */
+
+.form-styles {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: space-around;
+}
+.form-input {
+  width: 800px;
+  margin-right: 20px;
+}
+.form-btn {
+  color: white;
+  font-size: 18px;
+  background-color: #2a4997;
+  height: 35px;
+  width: 300px;
+  padding-bottom: 25px;
+}
+
+.form-btn:hover {
+  color: #e25f3f;
+  background-color: #f7dc4d;
 }
