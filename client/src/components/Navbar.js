@@ -20,7 +20,7 @@ function Navbar() {
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item ">
-            <a className="nav-link nav-link-search" href="/">
+            <a className="nav-link nav-link-search" href="/#search-section">
               Search
             </a>
           </li>
