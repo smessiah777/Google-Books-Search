@@ -12,7 +12,7 @@ body {
   margin-bottom: 20px;
 }
 .section-search {
-  width: 100vw;
+  /* width: 100vw; */
   margin-top: 50px;
 }
 
@@ -24,6 +24,15 @@ body {
   align-content: center;
   text-align: center;
   margin-top: 8%;
+}
+
+.books-img {
+  margin-right: 40px;
+}
+
+.title {
+  padding-top: 8%;
+  margin-left: 20px;
 }
 
 .title > h1 {
@@ -57,8 +66,8 @@ body {
   margin-right: 20px;
 }
 
-.nav-link {
-  font-weight: 500;
+.nav-link:hover {
+  color: #f7dc4d !important;
 }
 
 .nav-link-search {
