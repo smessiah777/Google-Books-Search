@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "../components/Navbar";
-import Jumbotron from "../components/Body";
+
 import API from "../utilities/API";
 import Save from "../components/Save";
 
@@ -28,10 +28,7 @@ class Saved extends React.Component {
     return (
       <div>
         <Navbar />
-        <Jumbotron>
-          <span>Google Books Search</span>
-          <h1>Saved Books</h1>
-        </Jumbotron>
+
         <br />
         <br />
         <br />

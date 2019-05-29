@@ -5,8 +5,41 @@ body {
 }
 
 .section {
-  height: auto;
+  height: 100vh;
+}
+
+.section-search {
   width: 100vw;
+  margin-top: 50px;
+}
+
+/* Hero styles */
+.hero-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  margin-top: 8%;
+}
+
+.title > h1 {
+  color: #2a4997;
+  font-size: 4rem;
+}
+.title > h2 {
+  color: #e25f3f;
+}
+.btn-search {
+  color: white;
+  font-size: 1.5rem;
+  background-color: #df871e;
+  width: 300px;
+  height: 50px;
+}
+
+.btn-search:hover {
+  background-color: #2a4997;
 }
 
 /* Nav Styles */
@@ -14,7 +47,19 @@ body {
 .nav-brand {
   height: 30px;
   width: 30px;
+  margin-right: 20px;
 }
 
-.myNav {
+.nav-link {
+  font-weight: 500;
+}
+
+.nav-link-search {
+  color: #e25f3f !important;
+  font-weight: bolder !important;
+}
+
+.nav-link-saved {
+  color: #2a4997 !important;
+  font-weight: bolder !important;
 }
