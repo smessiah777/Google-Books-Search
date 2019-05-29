@@ -64,7 +64,7 @@ class BookSearch extends React.Component {
                   <h1>Google Book Search</h1>
                   <h2>A MERN stack book search app</h2>
                   <a href="#search-section">
-                    <button type="button" className="btn btn-search">
+                    <button type="button" className="btn btn-enter">
                       Enter
                     </button>
                   </a>
