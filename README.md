@@ -1,4 +1,6 @@
-![alt text](https://image.flaticon.com/icons/png/512/562/562132.png)
+<p align="center">
+  <img  src="https://image.flaticon.com/icons/png/512/562/562132.png">
+</p>
 
 # Google Books Search
 
