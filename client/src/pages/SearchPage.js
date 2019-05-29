@@ -49,7 +49,7 @@ class BookSearch extends React.Component {
   render() {
     return (
       <div>
-        <section id="hero" className="section">
+        <section id="hero" className="section section-hero">
           <div className="row">
             <div className=" col-sm-6 col-lg-11 ">
               <div className="hero-content">
@@ -77,14 +77,14 @@ class BookSearch extends React.Component {
         <section id="search-section" className="section section-search">
           <Navbar />
           <div className="container">
-            <form>
+            <form className="form-styles">
               <Input
                 value={this.state.search}
                 onChange={this.handleInputChange}
                 name="search"
-                placeholder="Search"
+                className="form-input"
               />
-              {/* Why u no work? */}
+
               <FormBtn onClick={this.handleFormSubmit}>Search</FormBtn>
             </form>
             <br />
