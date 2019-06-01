@@ -50,24 +50,25 @@ class BookSearch extends React.Component {
     return (
       <div>
         <section id="hero" className="section section-hero">
-          <div className="row">
-            <div className=" col-sm-6 col-lg-11 ">
-              <div className="hero-content">
-                <div className="books-img">
-                  <img
-                    className="img-fluid"
-                    alt="Responsive image"
-                    src={require("../assets/images/books.png")}
-                  />
-                </div>
-                <div className="title">
-                  <h1>Google Book Search</h1>
-                  <h2>A MERN stack book search app</h2>
-                  <a href="#search-section">
-                    <button type="button" className="btn btn-enter">
-                      Enter
-                    </button>
-                  </a>
+          <div className="container">
+            <div className="row">
+              <div className="col-sm-12 col-lg-11">
+                <div className="hero-content">
+                  <div className="books-img-container">
+                    <img
+                      className="img-hero"
+                      src={require("../assets/images/books.png")}
+                    />
+                  </div>
+                  <div className="title">
+                    <h1>Google Book Search</h1>
+                    <h2>A MERN stack book search app</h2>
+                    <a href="#search-section">
+                      <button type="button" className="btn btn-enter">
+                        Enter
+                      </button>
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
