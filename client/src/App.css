@@ -136,6 +136,7 @@ body {
   .hero-content {
     flex-direction: column;
     justify-content: center;
+    padding-top: 25%;
   }
 
   .books-img-container {
