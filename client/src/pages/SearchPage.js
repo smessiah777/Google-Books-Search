@@ -56,15 +56,18 @@ class BookSearch extends React.Component {
                 <div className="hero-content">
                   <div className="books-img-container">
                     <img
-                      className="img-hero"
+                      className="img-hero animated  fadeInDownBig slow"
                       src={require("../assets/images/books.png")}
                     />
                   </div>
-                  <div className="title">
+                  <div className="title animated fadeInRight slow">
                     <h1>Google Book Search</h1>
                     <h2>A MERN stack book search app</h2>
                     <a href="#search-section">
-                      <button type="button" className="btn btn-enter">
+                      <button
+                        type="button "
+                        className="btn btn-enter animated bounceInUp slower"
+                      >
                         Enter
                       </button>
                     </a>
