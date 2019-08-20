@@ -46,4 +46,4 @@ This app utilizes Google's book API and allows the user to search for books and 
 
 ## Deployment Link
 
-[Google Books Search](https://arcane-scrubland-22228.herokuapp.com/)
+<a href="https://arcane-scrubland-22228.herokuapp.com/" target="_blank">Google Books Search App</a>
