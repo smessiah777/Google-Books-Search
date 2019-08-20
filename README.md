@@ -26,6 +26,24 @@ This app utilizes Google's book API and allows the user to search for books and 
 
 ![alt text](client/src/assets/images/readME_images/search-section.png)
 
+## Core Technologies
+
+**Front End:**
+
+- React
+- Bootstrap
+- Axios
+
+**Back End:**
+
+- Node.js
+- Express.js
+- MongoDB
+
+**Deployment:**
+
+- Heroku
+
 ## Deployment Link
 
 [https://arcane-scrubland-22228.herokuapp.com/](Google Book Search App)
